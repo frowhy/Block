@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">阻止</string>
+    <string name="block_power_button">阻止电源键</string>
+    <string name="unblock_power_button">不阻止电源键</string>
+</resources>
