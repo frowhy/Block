@@ -37,6 +37,7 @@ public class BlockPowerButton implements IXposedHookLoadPackage {
                     XSharedPreferences mXsp = new XSharedPreferences(PACKAGE_NAME);
 
                     Log.d("isBlockPowerButton", "=================" + mXsp.getBoolean("isBlockPowerButton", true));
+                    XposedBridge.log("isBlockPowerButton" + "=================" + mXsp.getBoolean("isBlockPowerButton", true));
 
                     if (mXsp.getBoolean("isBlockPowerButton", true)) {
                         param.setResult(0);

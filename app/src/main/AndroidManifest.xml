@@ -14,7 +14,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Xposed Example" />
+            android:value="阻止电源键关屏" />
         <meta-data
             android:name="xposedminversion"
             android:value="82" />
